@@ -1,0 +1,69 @@
+
+h1{
+	text-align: center;
+	font:Helvetica,Arial;
+	font-size: 1.75em;
+}
+.col{
+	float: left;
+	border:3px solid black;
+	background-color: #f2f2f2;
+	margin-right: auto;
+	margin-left: 5px; 
+	margin-top: 5px;
+	width:97%;
+}
+.section-title{
+	float: right;
+	clear: both;
+	font-size: 1.4em;
+	border:3px solid black;	
+	margin: -3px -3px 5px 10000px;
+	padding:5px;
+	
+
+}
+.content{
+	text-indent: 20px;
+	padding: 20px;
+}
+.col-one{
+	background-color: #856c00;
+	color: white;
+}
+.col-two{
+	background-color: #8977b3;
+}
+.col-three{
+	background-color: #d6d0ce;
+}
+/*desktop version 992px and above.*/
+@media(min-width: 992px){
+	
+	.col-sm{
+		width:32%;
+	}
+
+}
+/*tablet version 768px and 991px,*/
+@media(max-width: 991px) and (min-width: 768px){
+	
+	
+	.col-md{
+		width:48%;
+	}
+	
+}
+/*mobile view less than 767px*/
+@media(max-width: 767px){
+	.col-sm{
+		width:33%;
+	}
+	.col-md{
+		width:40%;
+	}
+	.col-lg{
+		width:96%;
+	}
+	
+}

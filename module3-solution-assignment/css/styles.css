@@ -1,0 +1,45 @@
+body{
+	font-size: 16px;
+	color: #83D1C1;
+	font-family: Helvetica, sans-serif;
+}
+#navbar-header{
+	background-color: #f44336;
+	height:100px;
+}
+.navbar-nav{
+	text-align: center;
+	font-size:1.5em;
+}
+.navbar-nav li{
+	background-color: #BFBFBF;
+	border-bottom: #ffffff 1px solid;
+}
+#chicken,#beef,#sushi{
+	border:2px solid;
+	height:550px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.row h3,p{
+	float: center;
+	padding:5px 5px 5px 5px;
+}
+.up{
+	display: block;
+	background-color: #BFBFBF;
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+	width: 70px;
+	height: 70px;
+	float: right;
+	position:fixed;
+    right:10px;
+    bottom:100px;
+}
+.up a:hover{
+	text-decoration: none;	
+}
